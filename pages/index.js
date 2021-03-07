@@ -1,65 +1,74 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import React from "react";
+// nodejs library that concatenates classes
+import classNames from "classnames";
+// @material-ui/core components
+import { makeStyles } from "@material-ui/core/styles";
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App - Test again</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+// @material-ui/icons
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+// core components
+import Header from "components/Header/Header.js";
+import Footer from "components/Footer/Footer.js";
+import GridContainer from "components/Grid/GridContainer.js";
+import GridItem from "components/Grid/GridItem.js";
+import Button from "components/CustomButtons/Button.js";
+import HeaderLinks from "components/Header/HeaderLinks.js";
+import Parallax from "components/Parallax/Parallax.js";
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+// Sections for this page
+import HomePageInfoSection from "pages-sections/LandingPage-Sections/HomePageInfoSection.js";
+import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
+import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+const dashboardRoutes = [];
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+const useStyles = makeStyles(styles);
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+export default function Home(props) {
+    const classes = useStyles();
+    const { ...rest } = props;
+    return (
+        <div>
+            <Header
+                color="transparent"
+                routes={dashboardRoutes}
+                brand="Stonechat Meadow"
+                rightLinks={<HeaderLinks />}
+                fixed
+                changeColorOnScroll={{
+                    height: 400,
+                    color: "white"
+                }}
+                {...rest}
+            />
+            <Parallax filter responsive image={require("assets/img/home.jpg")}>
+                <div className={classes.container}>
+                    <GridContainer>
+                        <GridItem xs={12} sm={12} md={6}>
+                            <h1 className={classes.title}>Welcome back!</h1>
+                            <h4>
+                                 We are happy to advise that social distancing can still easily be achieved at Stonechat Meadow, with only 2 tents pitched in each field and these being more than 40m apart.
+                            </h4>
+                            <br />
+                            <Button
+                                color="success"
+                                size="lg"
+                                href="/booking"
+                            >
+                                Book Now
+                            </Button>
+                        </GridItem>
+                    </GridContainer>
+                </div>
+            </Parallax>
+            <div className={classNames(classes.main, classes.mainRaised)}>
+                <div className={classes.container}>
+                    <HomePageInfoSection />
+                </div>
+            </div>
+            <Footer />
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+    );
 }
