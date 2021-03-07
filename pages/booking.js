@@ -21,6 +21,7 @@ import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 import HomePageInfoSection from "pages-sections/LandingPage-Sections/HomePageInfoSection.js";
 import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
 import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
+import BookingSection from "../pages-sections/LandingPage-Sections/BookingSection";
 
 const dashboardRoutes = [];
 
@@ -43,31 +44,18 @@ export default function Tents(props) {
                 }}
                 {...rest}
             />
-            <Parallax filter responsive image={require("assets/img/home.jpg")}>
+            <Parallax filter responsive image={require("assets/img/gallery/DSC01063.jpg")}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
-                            <h1 className={classes.title}>Welcome back!</h1>
-                            <h4>
-                                 We are happy to advise that social distancing can still easily be achieved at Stonechat Meadow, with only 2 tents pitched in each field and these being more than 40m apart.
-                            </h4>
-                            <br />
-                            <Button
-                                color="success"
-                                size="lg"
-                                href="/booking"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Book Now
-                            </Button>
+                            <h1 className={classes.title}>Make an Enquiry</h1>
                         </GridItem>
                     </GridContainer>
                 </div>
             </Parallax>
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div className={classes.container}>
-                    <HomePageInfoSection />
+                    <BookingSection/>
                 </div>
             </div>
             <Footer />

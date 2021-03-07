@@ -12,6 +12,7 @@
     "@material-ui/icons": "4.9.1",
     "@material-ui/styles": "^4.11.3",
     "@zeit/next-sass": "1.0.1",
+    "axios": "^0.21.1",
     "classnames": "2.2.6",
     "leaflet": "^1.7.1",
     "leaflet-defaulticon-compatibility": "^0.1.1",

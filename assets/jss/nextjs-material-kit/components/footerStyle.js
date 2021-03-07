@@ -1,4 +1,5 @@
 import { container, primaryColor } from "assets/jss/nextjs-material-kit.js";
+import {title} from "assets/jss/nextjs-material-kit";
 
 const footerStyle = {
   block: {
@@ -20,6 +21,14 @@ const footerStyle = {
     padding: "15px 0",
     margin: "0",
     float: "right!important"
+  },
+  title: {
+    ...title,
+    display: "inline-block",
+    position: "relative",
+    marginTop: "30px",
+    minHeight: "32px",
+    textDecoration: "none"
   },
   footer: {
     padding: "0.9375rem 0",
