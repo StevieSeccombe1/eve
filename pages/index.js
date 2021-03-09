@@ -22,6 +22,7 @@ import HomePageInfoSection from "pages-sections/LandingPage-Sections/HomePageInf
 import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
 import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
 import TentInfoSection from "../pages-sections/LandingPage-Sections/TentInfoSection";
+import Link from "next/link";
 
 const dashboardRoutes = [];
 
@@ -54,13 +55,14 @@ export default function Home(props) {
                                 Meadow, with only 2 tents pitched in each field and these being more than 40m apart.
                             </h4>
                             <br/>
+                            <Link href="booking">
                             <Button
                                 color="success"
                                 size="lg"
-                                href="/booking"
                             >
                                 Book Now
                             </Button>
+                            </Link>
                         </GridItem>
                     </GridContainer>
                 </div>

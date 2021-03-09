@@ -1,7 +1,7 @@
 import React from "react";
 // @material-ui/core components
 import {makeStyles} from "@material-ui/core/styles";
-
+import Link from "next/link";
 // @material-ui/icons
 import Eco from "@material-ui/icons/Eco";
 // core components
@@ -32,7 +32,7 @@ export default function TentInfoSection() {
                                         interior. Each tent sleeps 2 persons.</p>
                                     <p>The tents come with the essentials, with some added extras to make your stay more
                                         comfortable.</p>
-                                    <p>Check out our Gallery</p>
+                                    <p>Check out our <Link href="gallery">Gallery</Link></p>
                                 </>
                             }
                             icon={Home}

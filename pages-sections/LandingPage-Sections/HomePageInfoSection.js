@@ -14,6 +14,7 @@ import InfoArea from "components/InfoArea/InfoArea.js";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
 import Button from "../../components/CustomButtons/Button";
 import {Explore} from "@material-ui/icons";
+import Link from "next/link";
 
 const useStyles = makeStyles(styles);
 
@@ -60,7 +61,7 @@ export default function HomePageInfoSection() {
                                         thriving
                                         butterfly population in the summer, together with a small pond – habitat to the
                                         amphibian section.</p>
-                                    <p>Checkout our Gallery and our Blog for updates on the wildlife activity.</p>
+                                    <p>Checkout our <Link href="gallery">Gallery</Link></p>
                                 </>
                             }
                             icon={Pets}
@@ -84,7 +85,7 @@ export default function HomePageInfoSection() {
                                         romantic evening of stargazing.</p>
                                     <p>All tents are pre-pitched and everything is prepared and made up. We also cater
                                         for non-powered motor homes.</p>
-                                    <p>Check out our Tents</p>
+                                    <p>Check out our <Link href="tents">Tents</Link></p>
                                 </>
                             }
                             icon={Explore}
@@ -106,7 +107,7 @@ export default function HomePageInfoSection() {
                                     <p>Our family run campsite is perfect for those who want to be immersed in the raw
                                         natural beauty of the countryside. The general ambience allows for a relaxed,
                                         stress free, healthy retreat.</p>
-                                    <p>Check out our Facilities</p>
+                                    <p>Check out our <Link href="facilities">Facilities</Link></p>
                                 </>
                             }
                             icon={Eco}
