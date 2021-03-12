@@ -36,8 +36,8 @@ export default function Footer(props) {
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={12}>
                             <h4 className={classes.title}>Contact Us</h4>
-                            <p><Phone/> 07379864880</p>
-                            <p><Email/> info@stonechatmeadow.co.uk</p>
+                            <p style={{ display: 'flex', justifyContent: 'center'}}><Phone/> 07379864880</p>
+                            <p style={{ display: 'flex', justifyContent: 'center'}}><Email/> info@stonechatmeadow.co.uk</p>
                         </GridItem>
                     </GridContainer>
                     <GridContainer>
@@ -57,13 +57,13 @@ export default function Footer(props) {
                                 Continue on the road for about 7 miles which bypasses Winkleigh and
                                 then take a right turn to Stonechat Meadow (If you get to the cross
                                 roads with the garage on the corner then you have gone too far).
-                                Take the first left into the car park signposted Stonechat Meadow"
+                                Take the first left into the car park signposted Stonechat Meadow
                             </p>
                         </GridItem>
                     </GridContainer>
                 </div>
                 <div>
-                    &copy; {1900 + new Date().getYear()} Stonechat Meadow
+                    &copy; 2019 - {1900 + new Date().getYear()} Stonechat Meadow
                 </div>
             </div>
         </footer>

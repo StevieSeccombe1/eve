@@ -6,7 +6,10 @@ const basicsStyle = {
   sections: {
     padding: "70px 0"
   },
-  container,
+  container:{
+    ...container,
+    color: 'black'
+  },
   title: {
     ...title,
     marginTop: "30px",
