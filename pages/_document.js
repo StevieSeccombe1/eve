@@ -34,6 +34,15 @@ class MyDocument extends Document {
           <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
                   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
                   crossOrigin=""/>
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-H80F1R1V6J"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-H80F1R1V6J');
+          </script>
         </Head>
         <body>
           <div id="page-transition"></div>
