@@ -10,7 +10,6 @@ import dynamic from 'next/dynamic'
 import styles from "assets/jss/nextjs-material-kit/components/footerStyle.js";
 import GridContainer from "../Grid/GridContainer";
 import GridItem from "../Grid/GridItem";
-import InfoArea from "../InfoArea/InfoArea";
 import {Email, Phone} from "@material-ui/icons";
 
 const Map = dynamic(() => import("../Map/Map"), {
@@ -36,8 +35,9 @@ export default function Footer(props) {
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={12}>
                             <h4 className={classes.title}>Contact Us</h4>
-                            <p style={{ display: 'flex', justifyContent: 'center'}}><Phone/> 07379864880</p>
-                            <p style={{ display: 'flex', justifyContent: 'center'}}><Email/> info@stonechatmeadow.co.uk</p>
+                            <p style={{display: 'flex', justifyContent: 'center'}}><Phone/> 07379864880</p>
+                            <p style={{display: 'flex', justifyContent: 'center'}}><Email/> info@stonechatmeadow.co.uk
+                            </p>
                         </GridItem>
                     </GridContainer>
                     <GridContainer>
@@ -45,20 +45,17 @@ export default function Footer(props) {
                             <h4 className={classes.title}>Find Us</h4>
                         </GridItem>
                         <GridItem xs={12} sm={12} md={6}>
+                            <p>50.90084, -3.998519</p>
                             <Map/>
                         </GridItem>
                         <GridItem xs={12} sm={12} md={6}>
                             <h4>Winkleigh, Devon, EX19 8PR</h4>
-                            <p>From the M5, take the exit on to the A30, junction 31. Continue on
-                                the A30 for about 20 miles, scraping the northern edge of Dartmoor.
-                                Turn right, signposted Winkleigh and Torrington. Continue on the
-                                A3124 for 5 miles and turn left at the end of the road at the
-                                T-junction. Take the next sharp right, signposted Winkleigh.
-                                Continue on the road for about 7 miles which bypasses Winkleigh and
-                                then take a right turn to Stonechat Meadow (If you get to the cross
-                                roads with the garage on the corner then you have gone too far).
-                                Take the first left into the car park signposted Stonechat Meadow
-                            </p>
+                            <p>Coming off the A30 at Winkleigh/Torrington, follow signs to Winkleigh then to Torrington.
+                                4 miles out of Winkleigh go past the Ashreigney turn on the right and past the Stafford
+                                Moor Fishery. About 200 yards past that turn right onto an unnamed lane. (If you get to
+                                the
+                                cross roads with the garage on the corner then you have gone too far).
+                                Take the first left into the car park signposted Stonechat Meadow </p>
                         </GridItem>
                     </GridContainer>
                 </div>
