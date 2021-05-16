@@ -19,9 +19,6 @@ import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 
 // Sections for this page
 import HomePageInfoSection from "pages-sections/LandingPage-Sections/HomePageInfoSection.js";
-import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
-import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
-import TentInfoSection from "../pages-sections/LandingPage-Sections/TentInfoSection";
 import Link from "next/link";
 
 const dashboardRoutes = [];

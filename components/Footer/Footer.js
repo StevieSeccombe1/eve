@@ -11,6 +11,7 @@ import styles from "assets/jss/nextjs-material-kit/components/footerStyle.js";
 import GridContainer from "../Grid/GridContainer";
 import GridItem from "../Grid/GridItem";
 import {Email, Phone} from "@material-ui/icons";
+import SectionReviews from "../../pages-sections/Components-Sections/SectionReviews";
 
 const Map = dynamic(() => import("../Map/Map"), {
     ssr: false
@@ -34,21 +35,22 @@ export default function Footer(props) {
                 <div>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={12}>
-                            <h4 className={classes.title}>Contact Us</h4>
-                            <p style={{display: 'flex', justifyContent: 'center'}}><Phone/> 07379864880</p>
-                            <p style={{display: 'flex', justifyContent: 'center'}}><Email/> info@stonechatmeadow.co.uk
-                            </p>
+                            <h4 className={classes.title}>Satisfied Customers</h4>
+                            <SectionReviews />
                         </GridItem>
                     </GridContainer>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={12}>
-                            <h4 className={classes.title}>Find Us</h4>
+                            <h4 className={classes.title}>Contact Us</h4>
                         </GridItem>
                         <GridItem xs={12} sm={12} md={6}>
                             <p>50.90084, -3.998519</p>
                             <Map/>
                         </GridItem>
                         <GridItem xs={12} sm={12} md={6}>
+                            <p style={{display: 'flex', justifyContent: 'center'}}><Phone/> 07379864880</p>
+                            <p style={{display: 'flex', justifyContent: 'center'}}><Email/> info@stonechatmeadow.co.uk
+                            </p>
                             <h4>Winkleigh, Devon, EX19 8PR</h4>
                             <p>Coming off the A30 at Winkleigh/Torrington, follow signs to Winkleigh then to Torrington.
                                 4 miles out of Winkleigh go past the Ashreigney turn on the right and past the Stafford

@@ -9,12 +9,12 @@ import styles from "assets/jss/nextjs-material-kit/components/typographyStyle.js
 const useStyles = makeStyles(styles);
 
 export default function Quote(props) {
-  const { text, author } = props;
+  const { text, author, date } = props;
   const classes = useStyles();
   return (
     <blockquote className={classes.defaultFontStyle + " " + classes.quote}>
       <p className={classes.quoteText}>{text}</p>
-      <small className={classes.quoteAuthor}>{author}</small>
+      <small className={classes.quoteAuthor}>{author} - {date}</small>
     </blockquote>
   );
 }
