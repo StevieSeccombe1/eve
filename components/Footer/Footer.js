@@ -35,7 +35,7 @@ export default function Footer(props) {
                 <div>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={12}>
-                            <h4 className={classes.title}>Satisfied Customers</h4>
+                            <h4 className={classes.title}>Reviews</h4>
                             <SectionReviews />
                         </GridItem>
                     </GridContainer>
