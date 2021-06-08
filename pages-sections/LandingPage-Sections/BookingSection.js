@@ -93,7 +93,7 @@ export default function BookingSection() {
                     </div>
                     <div className={classes.description}>
                         <p>The price per night per tent is £60.00.</p>
-                        <p>The price per night per motor home is £25.00.</p>
+                        <p>The price per night per motor home is £28.00.</p>
                     </div>
                     <div className={classes.title}>
                         <h3>Booking Enquiry</h3>
