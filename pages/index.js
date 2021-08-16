@@ -64,7 +64,7 @@ export default function Home(props) {
                 </div>
             </Parallax>
             <div className={classNames(classes.main, classes.mainRaised)}>
-                <div className={classes.container}>
+                <div id="infoSection" className={classes.container}>
                     <HomePageInfoSection/>
                 </div>
             </div>

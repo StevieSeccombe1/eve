@@ -1,14 +1,12 @@
 import React from "react";
-// @material-ui/core components
 import {makeStyles} from "@material-ui/core/styles";
-
-// core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
-
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
-import {EmojiFoodBeverage, Kitchen, LocalParking, Wc, WeekendTwoTone} from "@material-ui/icons";
+import Toys from "@material-ui/icons/Toys";
+import Cloud from "@material-ui/icons/Cloud";
+import Build from "@material-ui/icons/Build";
 
 const useStyles = makeStyles(styles);
 
@@ -18,72 +16,53 @@ export default function ServicesSection() {
         <div className={classes.section}>
             <div>
                 <GridContainer justify="center">
-                    <GridItem xs={12} sm={12} md={8}>
-                        <h2 className={classes.title}>FACILITIES</h2>
-                        <h5 className={classes.description}>Stonechat Meadow offers essential facilities and some
-                            personal touches we hope
-                            makes your stay as enjoyable and relaxing as possible.</h5>
-                        <h5 className={classes.description}>Homemade Devon cream tea or evening snacks can be provided
-                            during your stay.
-                            Please let us know in advance of your booking.</h5>
-                    </GridItem>
-                </GridContainer>
-                <GridContainer>
                     <GridItem xs={12} sm={12} md={4}>
                         <InfoArea
-                            title="HONESTY SHOP"
+                            title="Air Quality"
                             description={
-                                <p>The honesty shop stocks the essentials for your stay as well as local produce.
-                                    The local produce includes eggs, bacon and pork and other meats from a local
-                                    butcher, the sausages on a barbecue are highly recommended.</p>
+                                <ul>
+                                    <li>Air quality assessments ranging from screening to detailed specification</li>
+                                    <li>air quality management and action plans</li>
+                                    <li>Appraisal of air quality reports for local authorities</li>
+                                    <li>Air quality neutral assessment for applications in London</li>
+                                    <li>Diffusion tube monitoring</li>
+                                    <li>Odour assessment and management plans</li>
+                                    <li>Air quality and meteorological monitoring</li>
+                                </ul>
                             }
-                            icon={EmojiFoodBeverage}
+                            icon={Toys}
                             iconColor="info"
                             vertical
                         />
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4}>
                         <InfoArea
-                            title="RECREATION AREAS"
-                            description={<p>There are also indoor and outdoor seating areas by the shop for those
-                                wanting to
-                                enjoy an ale and socialise with other guests.</p>}
-                            icon={Wc}
+                            title="Dust"
+                            description={
+                                <ul>
+                                    <li>Site specific dust assessments</li>
+                                    <li>Dust management and action plans</li>
+                                </ul>
+                            }
+                            icon={Cloud}
                             iconColor="info"
                             vertical
                         />
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4}>
                         <InfoArea
-                            title="WASHROOM FACILITIES"
+                            title="Other Services"
                             description={
-                                <p>The campsite consists of two toilets and a shower.</p>
+                                <ul>
+                                    <li>Local Authority review and assessment</li>
+                                    <li>Residential suitability assessment</li>
+                                    <li>Assessment of traffic-related emissions</li>
+                                    <li>Detailed dispersion modelling with ADMS-Roads, ADMS 5, AERMOD, and CALPUFF</li>
+                                    <li>DMRB screening assessment</li>
+                                    <li>Greenhouse gas, carbon assessment, and carbon management</li>
+                                </ul>
                             }
-                            icon={WeekendTwoTone}
-                            iconColor="info"
-                            vertical
-                        />
-                    </GridItem>
-                </GridContainer>
-                <GridContainer>
-                    <GridItem xs={12} sm={12} md={6}>
-                        <InfoArea
-                            title="COOKING FACILITIES"
-                            description={
-                                <p>Each tent comprises of a small gas camp cooker and utensils.</p>
-                            }
-                            icon={Kitchen}
-                            iconColor="info"
-                            vertical
-                        />
-                    </GridItem>
-                    <GridItem xs={12} sm={12} md={6}>
-                        <InfoArea
-                            title="PARKING"
-                            description={
-                                    <p>Plenty of parking is available at the top of each field.</p>
-                                }
-                            icon={LocalParking}
+                            icon={Build}
                             iconColor="info"
                             vertical
                         />
