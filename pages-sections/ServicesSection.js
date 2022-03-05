@@ -4,9 +4,10 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
-import Toys from "@material-ui/icons/Toys";
-import Cloud from "@material-ui/icons/Cloud";
-import Build from "@material-ui/icons/Build";
+import EmojiTransportationIcon from '@material-ui/icons/EmojiTransportation';
+import BuildIcon from '@material-ui/icons/Build';
+import HomeIcon from '@material-ui/icons/Home';
+import Button from "../components/CustomButtons/Button";
 
 const useStyles = makeStyles(styles);
 
@@ -18,56 +19,56 @@ export default function ServicesSection() {
                 <GridContainer justify="center">
                     <GridItem xs={12} sm={12} md={4}>
                         <InfoArea
-                            title="Air Quality"
+                            title="Planning"
                             description={
                                 <ul>
-                                    <li>Air quality assessments ranging from screening to detailed specification</li>
-                                    <li>air quality management and action plans</li>
-                                    <li>Appraisal of air quality reports for local authorities</li>
-                                    <li>Air quality neutral assessment for applications in London</li>
-                                    <li>Diffusion tube monitoring</li>
-                                    <li>Odour assessment and management plans</li>
-                                    <li>Air quality and meteorological monitoring</li>
+                                    <li>Air Quality Assessments to support planning applications</li>
+                                    <li>Residential Feasibility/Screening Assessments</li>
+                                    <li>Air Quality Neutral Assessments</li>
+                                    <li>Emissions Mitigation Assessments</li>
                                 </ul>
                             }
-                            icon={Toys}
+                            icon={EmojiTransportationIcon}
                             iconColor="info"
                             vertical
                         />
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4}>
                         <InfoArea
-                            title="Dust"
+                            title="Construction"
                             description={
                                 <ul>
-                                    <li>Site specific dust assessments</li>
-                                    <li>Dust management and action plans</li>
+                                    <li>Construction Dust Risk Asessments and Management Plans</li>
                                 </ul>
                             }
-                            icon={Cloud}
+                            icon={BuildIcon}
                             iconColor="info"
                             vertical
                         />
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4}>
                         <InfoArea
-                            title="Other Services"
+                            title="Indoor Air Quality"
                             description={
                                 <ul>
-                                    <li>Local Authority review and assessment</li>
-                                    <li>Residential suitability assessment</li>
-                                    <li>Assessment of traffic-related emissions</li>
-                                    <li>Detailed dispersion modelling with ADMS-Roads, ADMS 5, AERMOD, and CALPUFF</li>
-                                    <li>DMRB screening assessment</li>
-                                    <li>Greenhouse gas, carbon assessment, and carbon management</li>
+                                    <li>Indoor Air Quality Assessments</li>
+                                    <li>Occupational Air Quality Services</li>
+                                    <li>Indoor Dust and Air Quality Surveys</li>
                                 </ul>
                             }
-                            icon={Build}
+                            icon={HomeIcon}
                             iconColor="info"
                             vertical
                         />
                     </GridItem>
                 </GridContainer>
+                <Button
+                        color="info"
+                        size="lg"
+                        href="/enquiries"
+                    >
+                        Enquire Now
+                    </Button>
             </div>
         </div>
     );

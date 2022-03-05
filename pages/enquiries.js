@@ -32,7 +32,7 @@ export default function Tents(props) {
             <Header
                 color="transparent"
                 routes={dashboardRoutes}
-                brand="Exe Valley Environmental Consultancy"
+                brand="Exe Valley Environmental"
                 rightLinks={<HeaderLinks />}
                 fixed
                 changeColorOnScroll={{

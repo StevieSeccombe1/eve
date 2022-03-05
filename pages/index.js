@@ -18,6 +18,7 @@ import Parallax from "components/Parallax/Parallax.js";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 
 // Sections for this page
+import ServicesSection from "pages-sections/ServicesSection.js";
 import HomePageInfoSection from "pages-sections/HomePageInfoSection.js";
 import Link from "next/link";
 
@@ -33,7 +34,7 @@ export default function Home(props) {
             <Header
                 color="transparent"
                 routes={dashboardRoutes}
-                brand="Exe Valley Environmental Consultancy"
+                brand="Exe Valley Environmental"
                 rightLinks={<HeaderLinks/>}
                 fixed
                 changeColorOnScroll={{
@@ -42,13 +43,13 @@ export default function Home(props) {
                 }}
                 {...rest}
             />
-            <Parallax filter responsive image={require("assets/img/timothy-eberly-o849qj6t2qo-unsplash.jpg")}>
+            <Parallax filter responsive image={require("assets/img/IMG-4593.jpg")}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
-                            <h1 className={classes.title}>Exe Valley Environmental Consultancy</h1>
+                            <h1 className={classes.title}>Exe Valley Environmental</h1>
                             <h4>
-                                We are established experts in Dust and Air Quality, providing services to the Planning, Design and Construction sectors.
+                            Exe Valley Environmental is an air quality consultancy, providing services to the Planning, Design and Construction sectors.
                             </h4>
                             <br/>
                             <Link href="enquiries">

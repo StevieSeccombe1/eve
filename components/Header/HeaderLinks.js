@@ -32,7 +32,7 @@ export default function HeaderLinks() {
                 color="transparent"
                 className={classes.navLink}
             >
-                Our Services
+                Services
             </Button>
             </Link>
         </ListItem>

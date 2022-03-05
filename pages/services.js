@@ -31,7 +31,7 @@ export default function Services(props) {
             <Header
                 color="transparent"
                 routes={dashboardRoutes}
-                brand="Exe Valley Environmental Consultancy"
+                brand="Exe Valley Environmental"
                 rightLinks={<HeaderLinks />}
                 fixed
                 changeColorOnScroll={{
@@ -40,11 +40,11 @@ export default function Services(props) {
                 }}
                 {...rest}
             />
-            <Parallax filter responsive image={require("assets/img/photoholgic-wZTiKB6rQYY-unsplash.jpg")}>
+            <Parallax filter responsive image={require("assets/img/IMG-3215.jpg")}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
-                            <h1 className={classes.title}>Our Services</h1>
+                            <h1 className={classes.title}>Services</h1>
                         </GridItem>
                     </GridContainer>
                 </div>

@@ -15,14 +15,10 @@ export default function AboutUsSection() {
                 <GridContainer justify="center">
                     <GridItem xs={12} sm={12} md={8}>
                         <h5 className={classes.description}>
-                            Established in 2021, we are an Exeter based firm that covers the whole of the south and London.
+Located in the heart of Exeter in the South West, EVE offers air quality consultancy to a range of sectors.
                         </h5>
                         <h5 className={classes.description}>
-                            We work on air quality consultancy projects ranging from large scale and national infrastructure
-                            developments that require Environmental Impact Assessment (EIA), to standalone air quality and
-                            dust assessments for small scale local developments. The firm has extensive experience of
-                            working within multi-disciplinary project teams to prepare the air quality, dust,
-                            carbon/greenhouse gas, and odour sections of EIAs.
+Founded in just 2021, EVE is a relatively new business but Kerrie, the founder, brings passion, skill and a friendly attitude to the consultancy.
                         </h5>
                     </GridItem>
                 </GridContainer>

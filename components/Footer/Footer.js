@@ -22,7 +22,7 @@ export default function Footer(props) {
         <footer className={footerClasses}>
             <div className={classes.container}>
                 <div>
-                    &copy; {1900 + new Date().getYear()} Exe Valley Environmental Consultancy
+                    &copy; {1900 + new Date().getYear()} Exe Valley Environmental || Photo Credit: Kerrie Baggs
                 </div>
             </div>
         </footer>
