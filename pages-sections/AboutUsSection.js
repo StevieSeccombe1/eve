@@ -18,7 +18,9 @@ export default function AboutUsSection() {
 Located in the heart of Exeter in the South West, EVE offers air quality consultancy to a range of sectors.
                         </h5>
                         <h5 className={classes.description}>
-Founded in just 2021, EVE is a relatively new business but Kerrie, the founder, brings passion, skill and a friendly attitude to the consultancy.
+Kerrie, the founder of Exe Valley Environmental, brings passion, skill and a friendly attitude to the consultancy.
+She has over seven years experience in the industry working on a range of projects, from major infrastructure projects and large-scale mixed-use developments to early feasibility assessments for residential developments and indoor air quality surveys.
+Kerrie is a member of the Institute of Air Quality Management (IAQM), a member of the Institute of Environmental Sciences (IES) and a practitioner of the Institute of Environmental Management & Assessment (IEMA).
                         </h5>
                     </GridItem>
                 </GridContainer>
