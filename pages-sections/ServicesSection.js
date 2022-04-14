@@ -39,6 +39,7 @@ export default function ServicesSection() {
                             description={
                                 <ul>
                                     <li>Construction Dust Risk Asessments and Management Plans</li>
+                                    <li>Management of construction dust and air quality monitoring</li>
                                 </ul>
                             }
                             icon={BuildIcon}
@@ -51,7 +52,6 @@ export default function ServicesSection() {
                             title="Indoor Air Quality"
                             description={
                                 <ul>
-                                    <li>Indoor Air Quality Assessments</li>
                                     <li>Occupational Air Quality Services</li>
                                     <li>Indoor Dust and Air Quality Surveys</li>
                                 </ul>
