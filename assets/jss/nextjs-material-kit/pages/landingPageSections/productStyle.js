@@ -14,6 +14,13 @@ const productStyle = {
   },
   description: {
     color: "#4c4c4c"
+  },
+  circleBox: {
+    borderRadius: "50%"
+  },
+  alignItems: {
+    display: "flex",
+    alignItems: "center"
   }
 };
 

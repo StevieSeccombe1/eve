@@ -12,7 +12,7 @@ export default function AboutUsSection() {
     return (
         <div className={classes.section}>
             <div>
-                <GridContainer justify="center">
+                <GridContainer justify="center" className={classes.alignItems}>
                     <GridItem xs={12} sm={12} md={8}>
                         <h5 className={classes.description}>
 Located in the heart of Exeter in the South West, EVE offers air quality consultancy to a range of sectors.
@@ -25,7 +25,7 @@ She has over seven years experience in the industry working on a range of projec
 Kerrie is a member of the Institute of Air Quality Management (IAQM), a member of the Institute of Environmental Sciences (IES) and a practitioner of the Institute of Environmental Management & Assessment (IEMA).
                         </h5>
                     </GridItem>
-                </GridContainer>
+                    <img className={classes.circleBox} width="200px" src="https://media-exp1.licdn.com/dms/image/C4D03AQFzkL_au1UoSA/profile-displayphoto-shrink_400_400/0/1617888199178?e=1655942400&v=beta&t=H_g34iiL3x6c5Q2ODGNAUKcr9EC3GfYEZIWkQ9O_vyg"/></GridContainer>
             </div>
         </div>
     );
