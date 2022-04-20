@@ -16,6 +16,7 @@ import Drawer from "@material-ui/core/Drawer";
 import Menu from "@material-ui/icons/Menu";
 // core components
 import styles from "assets/jss/nextjs-material-kit/components/headerStyle.js";
+import img from "assets/img/logoNoName.jpg";
 
 const useStyles = makeStyles(styles);
 
@@ -63,7 +64,7 @@ export default function Header(props) {
   });
   const brandComponent = (
     <Link href="/" as="/">
-      <Button className={classes.title}>{brand}</Button>
+      <Button className={classes.title}><img width="100px" style={{paddingRight: "20px"}} src={img}/>{brand}</Button>
     </Link>
   );
   return (

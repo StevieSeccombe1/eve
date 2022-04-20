@@ -32,7 +32,7 @@ export default function Home(props) {
     return (
         <div>
             <Header
-                color="transparent"
+                color="white"
                 routes={dashboardRoutes}
                 brand="Exe Valley Environmental"
                 rightLinks={<HeaderLinks/>}
