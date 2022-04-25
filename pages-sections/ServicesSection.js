@@ -14,8 +14,9 @@ const useStyles = makeStyles(styles);
 export default function ServicesSection() {
     const classes = useStyles();
     return (
-        <div className={classes.section}>
+        <div id="services" className={classes.section}>
             <div>
+            <h2 className={classes.title}>Our Services</h2>
                 <GridContainer justify="center">
                     <GridItem xs={12} sm={12} md={4}>
                         <InfoArea
@@ -29,7 +30,7 @@ export default function ServicesSection() {
                                 </ul>
                             }
                             icon={EmojiTransportationIcon}
-                            iconColor="info"
+                            iconColor="gray"
                             vertical
                         />
                     </GridItem>
@@ -43,7 +44,7 @@ export default function ServicesSection() {
                                 </ul>
                             }
                             icon={BuildIcon}
-                            iconColor="info"
+                            iconColor="gray"
                             vertical
                         />
                     </GridItem>
@@ -57,18 +58,18 @@ export default function ServicesSection() {
                                 </ul>
                             }
                             icon={HomeIcon}
-                            iconColor="info"
+                            iconColor="gray"
                             vertical
                         />
                     </GridItem>
                 </GridContainer>
-                <Button
-                        color="info"
+                {/* <Button
+                        color="gray"
                         size="lg"
                         href="/enquiries"
                     >
                         Enquire Now
-                    </Button>
+                    </Button> */}
             </div>
         </div>
     );

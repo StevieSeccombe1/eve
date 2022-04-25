@@ -20,6 +20,8 @@ import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 // Sections for this page
 import ServicesSection from "pages-sections/ServicesSection.js";
 import HomePageInfoSection from "pages-sections/HomePageInfoSection.js";
+import BookingSection from "../pages-sections/BookingSection";
+import AboutUsSection from "pages-sections/AboutUsSection.js";
 import Link from "next/link";
 
 const dashboardRoutes = [];
@@ -52,7 +54,7 @@ export default function Home(props) {
                             Exe Valley Environmental is an air quality consultancy, providing services to the Planning, Design and Construction sectors.
                             </h4>
                             <br/>
-                            <Link href="enquiries">
+                            <Link href="#enquiries">
                             <Button
                                 color="white"
                                 size="lg"
@@ -66,7 +68,10 @@ export default function Home(props) {
             </Parallax>
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div id="infoSection" className={classes.container}>
-                    <HomePageInfoSection/>
+                    <HomePageInfoSection />
+                    <AboutUsSection />
+                    <ServicesSection />
+                    <BookingSection />
                 </div>
             </div>
             <Footer/>

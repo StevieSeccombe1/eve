@@ -77,8 +77,9 @@ export default function BookingSection() {
     const classes = useStyles();
     return (
         <div className={classes.sections}>
-            <div className={classes.container}>
-                <div id="booking">
+            <div style={{ textAlign: "center" }} className={classes.container}>
+            <h2 className={classes.title}>Make an Enquiry</h2>
+                <div id="enquiries">
                     <form className={classes.form} onSubmit={handleOnSubmit}>
                         <GridContainer>
                             <GridItem xs={12} sm={4} md={4} lg={4}>

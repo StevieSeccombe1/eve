@@ -13,7 +13,7 @@ const useStyles = makeStyles(styles);
 export default function HomePageInfoSection() {
     const classes = useStyles();
     return (
-        <div className={classes.section}>
+        <div id="info" className={classes.section}>
             <GridContainer justify="center">
                 <GridItem xs={12} sm={12} md={8}>
                     <h2 className={classes.title}>EXE VALLEY ENVIRONMENTAL</h2>
@@ -22,13 +22,13 @@ export default function HomePageInfoSection() {
                         including; planning and development (residential, commercial and
                         mixed-use), construction and refurbishment, industrial and indoor air quality.
                     </h5>
-                    <Button
-                        color="info"
+                    {/* <Button
+                        color="gray"
                         size="lg"
                         href="/enquiries"
                     >
                         Enquire Now
-                    </Button>
+                    </Button> */}
                 </GridItem>
             </GridContainer>
         </div>

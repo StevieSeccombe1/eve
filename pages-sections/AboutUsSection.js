@@ -10,8 +10,9 @@ const useStyles = makeStyles(styles);
 export default function AboutUsSection() {
     const classes = useStyles();
     return (
-        <div className={classes.section}>
+        <div id="aboutUs" className={classes.section}>
             <div>
+            <h2 className={classes.title}>About Us</h2>
                 <GridContainer justify="center" className={classes.alignItems}>
                     <GridItem xs={12} sm={12} md={8}>
                         <h5 className={classes.description}>
