@@ -16,7 +16,7 @@ export default function HomePageInfoSection() {
         <div id="info" className={classes.section}>
             <GridContainer justify="center">
                 <GridItem xs={12} sm={12} md={8}>
-                    <h2 className={classes.title}>EXE VALLEY ENVIRONMENTAL</h2>
+                    <h4 className={classes.title}>EXE VALLEY ENVIRONMENTAL</h4>
                     <h5 className={classes.description}>
                         Exe Valley Environmental (EVE) provides expert dust and air quality consultancy services to a wide range of sectors
                         including; planning and development (residential, commercial and

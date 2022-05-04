@@ -49,7 +49,7 @@ export default function Home(props) {
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
-                            <h1 className={classes.title}>Exe Valley Environmental</h1>
+                            <h2 className={classes.title}>Exe Valley Environmental</h2>
                             <h4>
                             Exe Valley Environmental is an air quality consultancy, providing services to the Planning, Design and Construction sectors.
                             </h4>

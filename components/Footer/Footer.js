@@ -23,11 +23,13 @@ export default function Footer(props) {
     return (
         <footer className={footerClasses}>
             <div className={classes.container}>
-            <div style={{ display: "flex", justifyContent: "center"}}>
-                <Phone style={{margin: "0 5px"}}/> 
-                <a style={{textDecoration: "none", color: "inherit"}} href="tel:+07805951564">07805951564</a>  
-                <Email style={{margin: "0 5px"}}/> 
-                <a style={{textDecoration: "none", color: "inherit"}} href="mailto:kerrie@evenvironmental.co.uk">kerrie@evenvironmental.co.uk</a>
+            <div>
+                {/* <Phone style={{margin: "0 5px"}}/> */}
+                {/* <Email style={{margin: "0 5px"}}/>  */}
+                Phone: <a style={{textDecoration: "none", color: "inherit"}} href="tel:+07805951564">07805951564</a> 
+                </div>
+            <div>
+                Email: <a style={{textDecoration: "none", color: "inherit"}} href="mailto:kerrie@evenvironmental.co.uk">kerrie@evenvironmental.co.uk</a>
             </div>
             <div>
                 &copy; {1900 + new Date().getYear()} Exe Valley Environmental || Photo Credit: Kerrie Baggs
