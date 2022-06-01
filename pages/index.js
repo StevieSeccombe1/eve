@@ -51,7 +51,7 @@ export default function Home(props) {
                         <GridItem xs={12} sm={12} md={6}>
                             <h2 className={classes.title}>Exe Valley Environmental</h2>
                             <h4>
-                            Exe Valley Environmental is an air quality consultancy, providing services to the Planning, Design and Construction sectors.
+                            Exe Valley Environmental is a specialist air quality consultancy, providing services to the planning, design and construction sectors.
                             </h4>
                             <br/>
                             <Link href="#enquiries">
