@@ -23,9 +23,12 @@ export default function ServicesSection() {
                             title="Planning"
                             description={
                                 <ul>
-                                    <li>Air Quality Assessments to support planning applications</li>
-                                    <li>Residential Feasibility/Screening Assessments</li>
-                                    <li>Air Quality Neutral Assessments</li>
+                                    <li>Air quality assessments to support planning applications</li>
+                                    <li>Air Quality Assessments for EIA</li>
+                                    <li>Support discharging air quality conditions</li>
+                                    <li>Residential feasibility/screening assessments</li>
+                                    <li>Odour assessments</li>
+                                    <li>Air quality neutral assessments</li>
                                     <li>Emissions Mitigation Assessments</li>
                                 </ul>
                             }
@@ -39,7 +42,7 @@ export default function ServicesSection() {
                             title="Construction"
                             description={
                                 <ul>
-                                    <li>Construction Dust Risk Asessments and Management Plans</li>
+                                    <li>Construction dust risk assessments and management plans</li>
                                     <li>Management of construction dust and air quality monitoring</li>
                                 </ul>
                             }
@@ -53,8 +56,8 @@ export default function ServicesSection() {
                             title="Indoor Air Quality"
                             description={
                                 <ul>
-                                    <li>Occupational Air Quality Services</li>
-                                    <li>Indoor Dust and Air Quality Surveys</li>
+                                    <li>Occupational air quality services</li>
+                                    <li>Indoor dust and air quality surveys</li>
                                 </ul>
                             }
                             icon={HomeIcon}
