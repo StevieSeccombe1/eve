@@ -13,6 +13,7 @@ class MyDocument extends Document {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           <meta name="theme-color" content="#000000" />
+          <meta name="description" content="Exe Valley Environmental is a specialist air quality consultancy providing air quality services to the planning, design and construction sectors."></meta>
           <link
             rel="apple-touch-icon"
             sizes="76x76"

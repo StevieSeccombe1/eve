@@ -40,7 +40,7 @@ export default class MyApp extends App {
     return (
         <React.Fragment>
           <Head>
-            <title>EVE</title>
+            <title>Exe Valley Environmental Air Quality Consultancy</title>
           </Head>
           <Component {...pageProps} />
         </React.Fragment>

@@ -64,7 +64,7 @@ export default function Header(props) {
   });
   const brandComponent = (
     <Link href="/" as="/">
-      <Button className={classes.title}><img width="100px" style={{paddingRight: "20px"}} src={img}/>{brand}</Button>
+      <Button className={classes.title}><img alt="air quality consultancy devon" width="100px" style={{paddingRight: "20px"}} src={img}/>{brand}</Button>
     </Link>
   );
   return (
