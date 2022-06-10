@@ -19,7 +19,7 @@ export default function HomePageInfoSection() {
                     <h4 className={classes.title}>EXE VALLEY ENVIRONMENTAL</h4>
                     <h5 className={classes.description}>
                         Exe Valley Environmental (EVE) provides expert dust and air quality consultancy services to a wide range of sectors
-                        including; planning and development (residential, commercial and
+                        including planning and development (residential, commercial and
                         mixed-use), construction and refurbishment, industrial and indoor air quality.
                     </h5>
                     {/* <Button
