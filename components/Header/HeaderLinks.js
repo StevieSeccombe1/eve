@@ -17,7 +17,7 @@ export default function HeaderLinks() {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-          <Link href="/#aboutUs">
+          <Link href="#aboutUs" as="/#aboutUs">
               <Button
                   color="transparent"
                   className={classes.navLink}
