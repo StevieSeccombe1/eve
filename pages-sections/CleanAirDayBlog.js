@@ -36,7 +36,7 @@ Poor air quality can occur in both ambient (outdoor) and indoor environments.
 3.8 million deaths each year are attributable to poor indoor air quality. The biggest culprit of which is household fuel combustion. However, other culprits do exist. A lot can be said for ventilation, but if the ambient air quality is poor this can adversely affect the indoor air quality. <a href="/#enquiries">Contact Exe Valley Environmental to enquire about an indoor air quality survey.</a>
                         </h5>
                         <h5 className={classes.description}>
-99% of the world’s population live in places where air pollution levels exceed WHO guideline limits. Exe Valley Environmental offers feasibility air quality reports for developers to understand the air quality risks associated with potential development sites, allowing early advice on the air quality mitigation measures to be considered for potential scheme designs. Get in touch with Exe Valley Environmental to discuss your requirements for an air quality assessment.
+99% of the world’s population live in places where air pollution levels exceed WHO guideline limits. Exe Valley Environmental offers feasibility air quality reports for developers to understand the air quality risks associated with potential development sites, allowing early advice on the air quality mitigation measures to be considered for potential scheme designs. <a href="/#enquiries">Get in touch with Exe Valley Environmental to discuss your requirements for an air quality assessment.</a>
                         </h5>
                         <h5 className={classes.description}>
 Spread the word and inspire others to do their part in cleaning the air we breathe.
