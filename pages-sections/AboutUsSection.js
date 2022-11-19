@@ -2,7 +2,7 @@ import React from "react";
 import {makeStyles} from "@material-ui/core/styles";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-
+import img from "assets/img/kerrieprofile.jpeg";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -26,7 +26,7 @@ She has over seven years' experience in the industry working on a range of proje
 Kerrie is a member of the Institute of Air Quality Management, a member of the Institute of Environmental Sciences and a practitioner of the Institute of Environmental Management & Assessment.
                         </h5>
                     </GridItem>
-                    <img className={classes.circleBox} width="200px" alt="Kerrie Baggs - Air Quality Consultant" src="https://media-exp1.licdn.com/dms/image/C4D03AQFzkL_au1UoSA/profile-displayphoto-shrink_400_400/0/1617888199178?e=1655942400&v=beta&t=H_g34iiL3x6c5Q2ODGNAUKcr9EC3GfYEZIWkQ9O_vyg"/></GridContainer>
+                    <img className={classes.circleBox} width="200px" alt="Kerrie Baggs - Air Quality Consultant" src={img}/></GridContainer>
             </div>
         </div>
     );
