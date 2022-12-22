@@ -2,7 +2,7 @@ import React from "react";
 import {makeStyles} from "@material-ui/core/styles";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-
+import img from "assets/img/ulez.jpg";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -16,7 +16,8 @@ export default function LondonULEZBlogBlog() {
                         London ULEZ Expansion
                         </h2>
                 <GridContainer justify="center" className={classes.alignItems}>
-                    <GridItem xs={12} sm={12} md={8}>
+                             <img  width="200px" src={img}/>
+                              <GridItem xs={12} sm={12} md={8}>
                         <h5 className={classes.description}>
 London’s Ultra Low Emission Zone (ULEZ) is due to encompass the whole of the city next year. This
 means 5m more Londoners will be covered by the scheme. This increase in size will be effective from
