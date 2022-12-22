@@ -17,6 +17,7 @@ const productStyle = {
     color: "#4c4c4c"
   },
   subTitle: {
+    color: "#4c4c4c",
     textDecoration: "underline"
   },
   circleBox: {

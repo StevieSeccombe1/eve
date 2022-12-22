@@ -22,9 +22,9 @@ London’s Ultra Low Emission Zone (ULEZ) is due to encompass the whole of the c
 means 5m more Londoners will be covered by the scheme. This increase in size will be effective from
 Tuesday 29th August 2023.
 </h5>
-<h5 className={classes.description}>                     
+                   
 <h5 className={classes.subTitle}>History of the ULEZ in London</h5>
-
+<h5 className={classes.description}>  
 On 8 April 2019 the Mayor of London launched the ULEZ in central London, dubbed the world’s first
 24-hour ULEZ. On 25 October 2021 the zone was expanded up to, but not including, the North and
 South Circular Roads. Now, the latest expansion plans, will include the whole of the city in August
@@ -34,16 +34,16 @@ South Circular Roads. Now, the latest expansion plans, will include the whole of
 The ULEZ does not operate in isolation. It operates in conjunction with the London-wide Low
 Emission Zone (LEZ) which was originally launched in 2008.
 </h5>
-<h5 className={classes.description}>
                         <h5 className={classes.subTitle}>How has the ULEZ affected pollution levels in London?</h5>
+                        <h5 className={classes.description}>
 The ULEZ is highly targeted at getting the most polluting vehicles off the streets in London.
 Evidence around the effects of the existing ULEZ shows how much has been achieved since the
 initiative first launched, with roadside pollution levels for some emissions falling by 44% in central
 London and 20% for inner London.
 </h5>
-<h5 className={classes.description}>
+
                         <h5 className={classes.subTitle}>What the ULEZ expansion plans means</h5>
-                        
+                        <h5 className={classes.description}>                      
 5m more Londoners will be covered by the scheme. As part of the latest expansion, a £110m
 scrappage scheme will be established to help more people switch to compliant vehicles, which for
 the first time will also cover costs of retrofitting for successful applicants. More support has been
@@ -61,8 +61,8 @@ there is no public transport).
 Developers will need to consider the impact of the introduction of the ULEZ when planning projects
 in London.
 </h5>
-                        <h5 className={classes.description}>
 <h5 className={classes.subTitle}>Other ongoing changes that may affect developments in London</h5>
+<h5 className={classes.description}>
 The London wide construction machinery Low Emission Zone will affect the construction phase of
 developments. Non-Road Mobile Machinery (NRMM), particularly from the construction sector, is a
 significant contributor to London’s air pollution. Certain construction and delivery vehicles will be
