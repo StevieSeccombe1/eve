@@ -19,6 +19,7 @@ import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 
 // Sections for this page
 import CleanAirDayBlog from "pages-sections/CleanAirDayBlog.js";
+import LondonULEZBlog from "pages-sections/LondonULEZBlog.js"
 import Link from "next/link";
 
 const dashboardRoutes = [];
@@ -62,6 +63,7 @@ export default function Home(props) {
             </Parallax>
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div id="infoSection" className={classes.container}>
+                    <LondonULEZBlog />
                     <CleanAirDayBlog />
                 </div>
             </div>

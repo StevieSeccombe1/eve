@@ -13,7 +13,7 @@ export default function CleanAirDayBlog() {
         <div id="cleanairday" className={classes.section}>
             <div>
                         <h2 className={classes.title}>
-16/06/22 - Clean Air Day
+Clean Air Day
                         </h2>
                 <GridContainer justify="center" className={classes.alignItems}>
                     <GridItem xs={12} sm={12} md={8}>
