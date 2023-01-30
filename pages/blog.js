@@ -20,6 +20,7 @@ import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 // Sections for this page
 import CleanAirDayBlog from "pages-sections/CleanAirDayBlog.js";
 import LondonULEZBlog from "pages-sections/LondonULEZBlog.js"
+import BrownfieldBlog from "pages-sections/BrownfieldBlog.js"
 import Link from "next/link";
 
 const dashboardRoutes = [];
