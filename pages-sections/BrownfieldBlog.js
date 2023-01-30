@@ -2,7 +2,6 @@ import React from "react";
 import {makeStyles} from "@material-ui/core/styles";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import img from "assets/img/ulez.jpg";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -16,7 +15,6 @@ export default function BrownfieldBlog() {
                         Brownfield Sites
                         </h2>
                 <GridContainer justify="center" className={classes.alignItems}>
-                             <img  width="200px" src={img}/>
                               <GridItem xs={12} sm={12} md={8}>               
 <h5 className={classes.subTitle}>Looking to develop on a Brownfield site? Why is air quality an important consideration?</h5>
 <h5 className={classes.description}>  
