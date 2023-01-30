@@ -12,12 +12,12 @@ export default function LondonULEZBlogBlog() {
     return (
         <div id="londonulez" className={classes.section}>
             <div>
-                        <h2 className={classes.title}>
-                        London ULEZ Expansion
-                        </h2>
                 <GridContainer justify="center" className={classes.alignItems}>
                              <img  width="200px" src={img}/>
                               <GridItem xs={12} sm={12} md={8}>
+                                  <h2 className={classes.title}>
+                        London ULEZ Expansion
+                        </h2>
                         <h5 className={classes.description}>
 London’s Ultra Low Emission Zone (ULEZ) is due to encompass the whole of the city next year. This
 means 5m more Londoners will be covered by the scheme. This increase in size will be effective from
