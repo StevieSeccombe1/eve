@@ -22,7 +22,7 @@ export default function BrownfieldBlog() {
 <h5 className={classes.description}>  
 Developers must choose between a “brownfield” or “greenfield” site when deciding on the location for a new development. Generally, greenfield sites are set in more rural areas, whereas brownfield sites are often located in urban settings.
 </h5>
-                        <h5 className={classes.subTitle}Favourable planning policy for brownfield sites?</h5>
+                        <h5 className={classes.subTitle}>Favourable planning policy for brownfield sites?</h5>
                         <h5 className={classes.description}>
 The National Planning Policy Framework (NPPF) requires councils to encourage the effective use of land within settlements by reusing land that has been previously developed (brownfield land).
 Since December 2017, local authorities have been legally required to prepare, maintain and publish a brownfield land register of sites. Registers will help developers to identify potentially suitable brownfield sites for housing development.
