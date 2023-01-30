@@ -11,11 +11,11 @@ export default function BrownfieldBlog() {
     return (
         <div id="brownfield" className={classes.section}>
             <div>
-                        <h2 className={classes.title}>
+                <GridContainer justify="center" className={classes.alignItems}>
+                              <GridItem xs={12} sm={12} md={8}>
+                                  <h2 className={classes.title}>
                         Brownfield Sites
                         </h2>
-                <GridContainer justify="center" className={classes.alignItems}>
-                              <GridItem xs={12} sm={12} md={8}>               
 <h5 className={classes.subTitle}>Looking to develop on a Brownfield site? Why is air quality an important consideration?</h5>
 <h5 className={classes.description}>  
 Developers must choose between a “brownfield” or “greenfield” site when deciding on the location for a new development. Generally, greenfield sites are set in more rural areas, whereas brownfield sites are often located in urban settings.
