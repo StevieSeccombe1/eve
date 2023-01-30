@@ -63,6 +63,7 @@ export default function Home(props) {
             </Parallax>
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div id="infoSection" className={classes.container}>
+                 <BrownfieldBlog />
                     <LondonULEZBlog />
                     <CleanAirDayBlog />
                 </div>
