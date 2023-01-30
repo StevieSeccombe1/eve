@@ -12,11 +12,11 @@ export default function CleanAirDayBlog() {
     return (
         <div id="cleanairday" className={classes.section}>
             <div>
-                        <h2 className={classes.title}>
-Clean Air Day
-                        </h2>
                 <GridContainer justify="center" className={classes.alignItems}>
                     <GridItem xs={12} sm={12} md={8}>
+                                          <h2 className={classes.title}>
+Clean Air Day
+                        </h2>
                         <h5 className={classes.description}>
 Don’t take for granted the air we breathe.
                         </h5>
